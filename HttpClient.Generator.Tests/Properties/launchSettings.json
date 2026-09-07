@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Generator.Tests": {
+      "commandName": "Project"
+    }
+  }
+}
