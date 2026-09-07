@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "HttpClientGenerator": {
+      "commandName": "Project"
+    },
+    "Roslyn": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\HttpClient.Generator.Tests\\HttpClient.Generator.Tests.csproj"
+    }
+  }
+}
