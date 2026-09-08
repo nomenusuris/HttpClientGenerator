@@ -46,8 +46,6 @@ Rebuild the solution.
 Generated classes are named as {interfaceName}Proxy_{genericArg1_genericArg2} and placed in interface namespace.
 
 ### Specifics
-For exposed methods only Task return types are supported.
-
 Query string is serialized and deserialized only in bracket notation with explicit indices.
 
 Supported return types:
@@ -64,7 +62,7 @@ Supported parameter types:
 - Reference types marked with [AsParameters] or sent as a request body
 - IFormFile, IFormFileCollection
 
-Other parameter types are not proxied and are substituted in place 
+Other parameter types are not proxied and are substituted in place. 
 
 ### Configuration
 #### HttpClient
@@ -164,5 +162,3 @@ public class IExampleServiceProxy_ : IExampleService
     }
 }
 ```
-
-### Usage scenarios
